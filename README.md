@@ -1,5 +1,20 @@
-the file README.md contains 
+# myapp
+Vytvořte schéma
 
-Create a diagram of schemas.
-Describe each schema and its attributes and DAO methods.
-Describe commands (represented by API endpoints) which capture core behavior of the application (all your business use cases).
+Book:
+- title: string
+- author: string
+- published_year: integer
+- genre: string
+
+Popište každé schéma a jeho atributy a metody DAO:
+title: Title of the book (string).
+author: Author of the book (string).
+published_year: Year the book was published (integer).
+genre: Genre of the book (string).
+DAO Methods:
+addBook(book): Method to add a new book to the database.
+
+Popište příkazy  (API endpoints):
+GET /books: Retrieve all books.
+POST /books: Add a new book.
